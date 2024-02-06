@@ -69,6 +69,7 @@ export default function Home() {
         console.error("Error initializing Web3:", error);
       }
     } else {
+      toast.error("Metamask not detected!");
       console.log("Matamask not detected!");
     }
   }
